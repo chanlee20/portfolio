@@ -32,4 +32,9 @@ line-height: 0px;
   font-size: 16px;
   padding-left: 20px;
 }
-
+.about-text p:nth-child(4) {
+  color: #7e7d7d;
+  font-family: calibri;
+  font-size: 16px;
+  padding-left: 20px;
+}
