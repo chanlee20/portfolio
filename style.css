@@ -47,7 +47,7 @@ line-height: 0px;
   border: solid;
   text-align: left;
   outline: none;
-  font-size: 80px;
+  font-size: 20px;
 }
 
 .active, .collapsible:hover {
