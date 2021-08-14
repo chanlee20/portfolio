@@ -38,7 +38,9 @@ line-height: 0px;
   font-size: 16px;
   padding-left: 20px;
 }
+
 .collapsible {
+  font-size: 20px;
   background-color: #777;
   color: white;
   cursor: pointer;
@@ -47,7 +49,6 @@ line-height: 0px;
   border: solid;
   text-align: left;
   outline: none;
-  font-size: 20px;
 }
 
 .active, .collapsible:hover {
@@ -55,9 +56,9 @@ line-height: 0px;
 }
 
 .content {
+    font-size: 20px;
   padding: 0 18px;
   display: none;
   overflow: hidden;
   background-color: #f1f1f1;
-  font-size: 20px;
 }
