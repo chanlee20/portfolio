@@ -24,27 +24,10 @@
   overflow: hidden;
   background-color: #f1f1f1;
 }
-.about-text {
-  width: 550px;
-}
-
-.about-text p:nth-child(1){
+.text {
 color:#403e3e;
 font-family: myriad pro;
 font-weight: bold;
 font-size:23px;
-line-height: 0px;
-}
-.about-text p:nth-child(2) {
-  color:#3e3d3d;
-  font-size: 13px;
-  font-family: myriad pro;
-  font-weight: bold;
-  line-height: 5px;
-}
-.about-text p:nth-child(3) {
-  color: #7e7d7d;
-  font-family: calibri;
-  font-size: 16px;
-  padding-left: 20px;
-}
+line-height: 0px;}
+
