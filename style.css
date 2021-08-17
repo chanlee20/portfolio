@@ -40,7 +40,7 @@ nav {
 }
 
 .logo img{
-  height: 45px;
+  height: 55px;
 }
  
 nav ul {
@@ -50,7 +50,7 @@ nav ul {
 nav ul li a{
   height: 40px;
   line-height:43px;
-  margin:3px;
+  margin: 7px;
   padding 0px 22px;
   display flex;
   font-size: 0.8rem;
