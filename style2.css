@@ -34,6 +34,13 @@ line-height: 0px;
 .smalltext{
 color: #403e3e;
 font-family: myriad pro;
-font-size: 15px;
+font-size: 20px;
+line-height: 0px;
+}
+
+.descript{
+color: black;
+font-family: myriad pro;
+font-size: 18px;
 line-height: 0px;
 }
