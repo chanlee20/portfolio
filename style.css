@@ -62,14 +62,10 @@ nav ul li a{
  }
 
 .profile img{
-  width: 50%;
-  height: 50%;
+  width: 25%;
+  height: 25%;
   object-fit: contain;
   
-  .profile {
-  width: 250px;
-  height: 250px;
-  }
   
   .content{
   width: 90%
