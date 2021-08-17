@@ -62,14 +62,15 @@ nav ul li a{
  }
 
 .profile img{
+
 width: 230px;
 height: auto;
 border-radius: 50%;
 }
-  
+
   
   .content{
-  width: 90%
+    width: 90%
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -77,6 +78,8 @@ border-radius: 50%;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    padding-top: 100px;
+    
   }
   
   .maintext{
