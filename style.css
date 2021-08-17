@@ -36,6 +36,11 @@ nav {
   width: 100%;
   z-index: 1;
   background: white;
+ 
+}
+
+.logo img{
+  height: 45px;
 }
  
 nav ul {
