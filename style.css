@@ -85,7 +85,6 @@ border-radius: 50%;
   }
   
   .maintext{
-    transform: translate(10%,30%);
     width: 700px;
   }
   
@@ -110,6 +109,21 @@ border-radius: 50%;
   background-color: gray;
    border-radius:20px;
     box-shadow: 4px 10px 0px rgb(19 96 239 / 20%);
+  }
+
+.wim-text{
+    transform: translate(10%,30%);
+    width: 700px;
+}
+.wim-text h1{
+  font-size: 3.5rem;
+  color:#133b5a;
+  margin: 0px 0px 10px 0px;
+  line-height: 60px;}
+
+.wim-text p{
+  color: #747474;
+  font-size: 20px;
   }
 /* 
 .about-container {
