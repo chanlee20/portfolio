@@ -27,7 +27,7 @@
 .text {
 color: black;
 font-family: myriad pro;
-font-size: 50px;
+font-size: 40px;
 line-height: 2px;
 }
 
@@ -35,7 +35,7 @@ line-height: 2px;
 color: #403e3e;
 font-family: myriad pro;
 font-size: 20px;
-line-height: 2px;
+line-height: 5px;
 }
 
 .descript{
