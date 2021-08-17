@@ -85,7 +85,7 @@ border-radius: 50%;
   }
   
   .maintext{
-    transform: translate(-10%);
+    transform: translate(10%,30%);
     width: 700px;
   }
   
@@ -97,6 +97,7 @@ border-radius: 50%;
   
   .maintext p{
   color: #747474;
+  font-size: 20px;
   }
   
   .who-i-am{
