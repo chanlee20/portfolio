@@ -85,12 +85,13 @@ border-radius: 50%;
   }
   
   .maintext{
-    width: 600px;
+    transform: translate(-10%);
+    width: 700px;
   }
   
   .maintext h1{
   font-size: 3.5rem;
-  color:#1c3548;
+  color:#133b5a;
   margin: 0px 0px 10px 0px;
   line-height: 60px;}
   
@@ -107,7 +108,7 @@ border-radius: 50%;
   color: white;
   background-color: gray;
    border-radius:20px;
-    box-shadow: 4px 10px 30px rgba(20,140,120,0.2);
+    box-shadow: 4px 10px 0px rgb(19 96 239 / 20%);
   }
 /* 
 .about-container {
