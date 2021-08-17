@@ -28,7 +28,7 @@ a {
 nav {
   display: flex;
   justify-content: space-around;
-  alignitems: center;
+  align-items: center;
   box-shadow: 5px 10px rgba(0,0,0,0.02);
   position: fixed;
   left:0;
