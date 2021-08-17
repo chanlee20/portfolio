@@ -62,28 +62,31 @@ nav ul li a{
  }
 
 .profile img{
-
-width: 230px;
+width: 60%;
 height: auto;
+object-fit:contain;
 border-radius: 50%;
 }
 
+.profile{
+  width: 700px;
+  height: auto;
+}
   
   .content{
-    width: 90%
+    width: 70%;
     display: flex;
     justify-content: space-around;
     align-items: center;
     position: absolute;
     left: 20%;
-    top: 20%; 
-   transform: translate(50%, 50%); 
-/*     padding-top: 30%; */
+    top: auto;
+   transform: translate(0%, 40%); 
     
   }
   
   .maintext{
-    width:500px;
+    width: 600px;
   }
   
   .maintext h1{
