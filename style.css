@@ -125,6 +125,18 @@ border-radius: 50%;
   color: #747474;
   font-size: 20px;
   }
+
+.p-text{
+    transform: translate(10%,25%);
+    width: 700px;
+}
+
+ .p-text h1 {
+  font-size: 3.5rem;
+  color:#133b5a;
+  margin: 0px 0px 10px 0px;
+  line-height: 60px;
+  }
 /* 
 .about-container {
 width: 80%;
