@@ -132,6 +132,13 @@ border-radius: 50%;
   margin: 0px 0px 10px 0px;
   line-height: 40px;
 }
+
+.p-descript{
+  font-size: 0.5rem;
+  color: black;
+  margin: 0px 0px 10px 0px;
+  line-height: 40px;
+}
 /* 
 .about-container {
 width: 80%;
