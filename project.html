@@ -1,84 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="style2.css"/>
-
-<style>
-  img {
-  width: 230px;
-  height: auto;  
-  float: left;
-  }
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  border: 1px solid #e7e7e7;
-  background-color: #fffcfc;
-
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: #666;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li a:hover:not(.active) {
-  background-color: #ddd;
-}
-
-li a.active {
-  color: white;
-  background-color: #cbf7f5;
-}
-
-</style>
+  <meta charset = "utf-8">
+  <title> Personal Portfolio Website </title>
+  <link rel="stylesheet" type="text/css" href="style.css"/>  
 </head>
-<body>
-<style>
-  p{
-  font-family: calibri;
-  font-size 40px;
-  }
-  h3{
-  font-size: 30px;
-  font-family: calibri;
-  }
-  body {
-  background-color: #ededed;
-  }
-</style>
-  <div>
-<ul>
+  
+  <body>
+  <div id = "main">
+<!--   navigation bar -->
+  <nav>   
+<!--   logo -->
+  <a href = "#" class = "logo">
+  <img src = "logo.png"/> </a>
+<!--   connecting to other pages -->
+  <ul class = "menu">
   <li><a href="index.html">Home</a></li>
   <li><a href="interest.html">Interests</a></li>
-  <li><a class="active" href="project.html">Projects</a></li>
+  <li><a href="project.html">Projects</a></li>
   <li><a href="resume.html">Resume</a></li>
-</ul>
-</div>
-<div>
-<h3> Projects </h3>
-</div>
+    </ul>
+<!-- contact info-->
+    <a href = "#" class = "contact"> Contact </a>
+  </nav>
+    
 
-<div class = "text">
-<p> Dynamic Networks and Control Applied to Covid </p>        
-    </div>
-  <div class = "smalltext">
-<p> ESE 105 Coursework: Month Long Project <br> </p>        
-  </div>
-  <div class = "descript"> 
-    <p> Utilized MATLAB coding to implement a SIRD model to describe dynamical system networks. <p>
-</div>
-
-<p> Airbag Test Trials in Autonomous Vehicles </p>
-<p> Game Design </p>
 </body>
 </html>
