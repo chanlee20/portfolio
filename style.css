@@ -125,6 +125,13 @@ border-radius: 50%;
   margin: 0px 0px 10px 0px;
   line-height: 60px;
   }
+
+.p-title p{
+  font-size: 2.0rem;
+  color:#133b5a;
+  margin: 0px 0px 10px 0px;
+  line-height: 40px;
+}
 /* 
 .about-container {
 width: 80%;
