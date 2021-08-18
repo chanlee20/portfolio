@@ -115,7 +115,7 @@ border-radius: 50%;
   }
 
 .p-text{
-    transform: translate(10%,120%);
+    transform: translate(10%,50%);
     width: 700px;
 }
 
@@ -134,10 +134,10 @@ border-radius: 50%;
 }
 
 .p-descript{
-  font-size: 0.5rem;
+  font-size: 1.5rem;
   color: black;
   margin: 0px 0px 10px 0px;
-  line-height: 40px;
+  line-height: 30px;
 }
 /* 
 .about-container {
