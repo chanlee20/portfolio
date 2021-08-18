@@ -142,7 +142,11 @@ border-radius: 50%;
 }
 
 .project1 {
-color: blue;
+color: gray;
+}
+
+.date {
+text-align: right;
 }
 /* 
 .about-container {
