@@ -61,13 +61,15 @@ nav ul li a{
  }
 
 .dropdown {
+  font-family: calibri;
+  color: blue;
   position: relative;
   display: inline-block;
 }
 
-.dropdown p {
+.dropdown span {
   font-family: calibri;
-  color: black;
+  color: blue;
 }
 
 .dropdown-content {
