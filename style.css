@@ -175,3 +175,7 @@ text-decoration: underline;
   margin: 0px 0px 10px 0px;
   line-height: 60px;
 }
+
+p.content {
+padding-top: 40px;
+}
