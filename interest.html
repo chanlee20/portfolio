@@ -1,118 +1,43 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="style2.css"/>
-
-<style>
-  img {
-  width: 230px;
-  height: auto;  
-  float: left;
-  }
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  border: 1px solid #e7e7e7;
-  background-color: #fffcfc;
-
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: #666;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li a:hover:not(.active) {
-  background-color: #ddd;
-}
-
-li a.active {
-  color: white;
-  background-color: #cbf7f5;
-}
-</style>
+  <meta charset = "utf-8">
+  <title> Who I Am </title>
+  <link rel="stylesheet" type="text/css" href="style.css"/>  
 </head>
-<body>
-<style>
-  h3{
-  font-size: 30px;
-  font-family: calibri;
-  }
-  body {
-  background-color: #ededed;
-  }
-  p {
-  margin-left: 20%
-  }
-  </style>
-<div>
-<ul>
+  
+  <body>
+  <div id = "main">
+<!--   navigation bar -->
+  <nav>   
+<!--   logo -->
+  <a href = "#" class = "logo">
+  <img src = "logo.png"/> </a>
+<!--   connecting to other pages -->
+  <ul class = "menu">
   <li><a href="index.html">Home</a></li>
-  <li><a class="active" href="interest.html">Interests</a></li>
+  <li><a href="interest.html">Interests</a></li>
   <li><a href="project.html">Projects</a></li>
   <li><a href="resume.html">Resume</a></li>
-</ul>
-</div>
-            <div>
-              <h3>
-                My Interests Are Not Limited
-              </h3>
-            </div>
-            <button type= "button" class= "collapsible">Stock Market</button>
-            <div class= "content">
-            <img src = "stock.png" alt= "stock analysis app" align = "left">
-            <p>The first thing I do when I wake up is to check the stock market. Stock market is an interest that I gained during my first year in college. What introduced me to the stock market was, surpisingly or not, Covid19.
-            The immediate collapse of the economy was reflected in the stock market and people were screaming for help to secure their money. In South Korea, we call small investors as "ants". As one of the ants, I started 
-            to learn various details in the stock market. This included lower and upper limit price, graphical analysis, market capitalization and more. After months of studying and carefully choosing the corporations to invest, 
-            I finally marched in to the market with approximately $2000. However, the result was a tragic fail. Nonetheless, I wouldn't say it is an absolute fail. I knew the importance of diversified investment and spread my seed money
-            to multiple sectors including technology, gaming, and Covid-related bio coporations. My rationale for these choices included Korea's advanced tech corporations such as Samsung and LG, my sheer interest in gaming, and 
-            my anticipation in the rise of bio companies to resolve the pandemics. While my technology and gaming companies were doing fairly well, I realized the downfall of bio companies. I expected the rise of the bio companies
-            due to the sooner or later vaccinations to prevent Covid19. After analyzing the reasons behind why my investment has failed, I learned the importance of the values of information. For example, it was a wide-known information
-            that Korea would begin its vaccination process within a week. Thus, this piece of information is relatively less valuable. Instead, it would have been way more valuable to obtain the information that fewer people know. This
-            includes the bio company that would create its own functional vaccines. Being interested in the stock market has been a huge change in my life. I started to read the news more frequently and imagine what the world is going to value
-            in the future.</p>
-            </div>
-            <button type="button" class="collapsible">Philosophy</button>
-            <div class="content">
-            <p>My interest in philosophy sparked when I attended Present Moral Problems class in my second semester of my freshman year. While I had interest in moral problems since high school, I never had the chance to share my opinions nor 
-              learn professional analsys from various philosophers. Starting from broader subject of moral responsibility to socially linked subjects such as abortion, I read articles and papers that had conflicting ideas. What made philosophy so
-              interesting is the fact that I had difficulty in settling what my perception is in certain problems. For instance, I encountered the trolley dilemma. This famous dilemma draws a situation in which you are given the choice to save 5 people
-              lying on the trail by twisting the direction of the trail to kill one person. One of the approaches to this problem is to simply compare the overall consequences. Obviously saving five people over one person sounds numerically better; thus,
-              one could choose to twist the direction of the trolley. At first, I agreed with this consequentialist approach. I thought that by saving five people over one person, you are making a morally acceptable choice given the environmental restriction.
-              However, what if we twist the situation and say that the one person you might kill is one of your family member. While this hypothetical situation is my own imagination, I am still not sure whether twisting the direction of the trolley is still
-              the morally acceptable choice. It is still a challenge that I look foward to dig through. The aspect where I can accept both sides in a reasonable sense is what makes philosophy so intriguing. In fact, a stereotype that philosophy has is that people
-              think philosophy usually discusses moral problems that are irrelevant to the modern society. Yet, I believe that philosophy is the fundamental basis that shapes our everyday decision-making.  </p>
-            </div>
-            <button type="button" class="collapsible">Speeches</button>
-            <div class="content">
-            <p>My interest in philosophy sparked when I attended Present Moral Problems class in my second semester of my freshman year.</p>
-            </div>
-  
-  
-<script>
-var coll = document.getElementsByClassName("collapsible");
-var i;
-
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    if (content.style.display === "block") {
-      content.style.display = "none";
-    } else {
-      content.style.display = "block";
-    }
-  });
-}
-</script>
+    </ul>
+<!-- contact info-->
+    <a href = "#" class = "contact"> Contact </a>
+  </nav>
+    
+<!--class that holds profile picture, hook, and who-i-am btn -->    
+  <div class = "whoiam-content">
+    <!-- profile pic-->
+<!--     <div class = "profile">
+      <img src = "profile.png"/>
+    </div> -->
+    <!-- introduction -->
+    <div class = "wim-text">
+      <h1> A Little Bit About Me </h1>
+      <p> Yes, this is a website designed to introduce my resume and my past accomplishments. However,  I feel like this only introduces a part of me. A part of me who is a learner and a worker. Thus, I decided to write this brief section that reveals who I am as a person. <br> <br>
+A turning point in my life was when I decided to live abroad in Germany. I was only 8 years old, and honestly, despite the fact that it was my first time experiencing Western culture or even seeing foreign people, I had a lot of fun. My passion in soccer was specifically skyrocketing that I managed to become the school's goal keeper despite being the shortest player. I still remember conflicting between rooting for South Korea and Germany in the World Cup.<br> <br>
+When I came back to Korea, there existed an immense challenge for me to adjust. A lot of students already had their own friend groups, and the cultural difference made me difficult to blend in. There was this one friend, however, who helped me to adjust to this new environment. He taught me basketball for the first time, introduced me to his friends, and most importantly, explored through the local restaurants to find the best ones! Thanks to him, I was able to create new personal relationships that I maintain today. <br> <br>
+Now, I have entered a new community in WashU adjusting to another culture with great friends. While my passion is in computer science, I do not want to be restricted in this field. At the end of the day, my goal is to utilize my knowledge to share the joy of working as a team. </p> <br>
+      </div>    
+  </div>
 </body>
 </html>
