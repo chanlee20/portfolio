@@ -65,7 +65,14 @@ nav ul li a{
   display: inline-block;
 }
 
+.dropdown p {
+  font-family: calibri;
+  color: black;
+}
+
 .dropdown-content {
+  font-family: calibri;
+  color: blue;
   display: none;
   position: absolute;
   background-color: white;
