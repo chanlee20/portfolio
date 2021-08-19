@@ -180,3 +180,15 @@ text-decoration: underline;
 .p-content {
 padding-top: 40px;
 }
+
+.i-text {
+    transform: translate(10%,10%);
+    width: 700px;
+}
+
+.i-text h1 {
+  font-size: 3.5rem;
+  color:#133b5a;
+  margin: 0px 0px 10px 0px;
+  line-height: 60px;
+}
