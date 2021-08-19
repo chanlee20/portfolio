@@ -132,6 +132,12 @@ border-radius: 50%;
   margin: 0px 0px 10px 0px;
   line-height: 20px;
 }
+.p-title p:nth-child(2) {
+  font-size: 1.0rem;
+  color:black;
+  margin: 0px 0px 10px 0px;
+  line-height: 40px;
+}
 
 .p-descript{
   width: 150%;
@@ -145,12 +151,7 @@ border-radius: 50%;
 text-decoration: underline;
 }
 
-.date {
-  font-size: 1.0rem;
-  color:black;
-  margin: 0px 0px 10px 0px;
-  line-height: 40px;
-}
+
 
 /* 
 .about-container {
