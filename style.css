@@ -209,7 +209,7 @@ padding-top: 40px;
 }
 
 .i-text {
-    transform: translate(10%,10%);
+    transform: translate(10%,120%);
     width: 700px;
 }
 
@@ -218,4 +218,21 @@ padding-top: 40px;
   color:#133b5a;
   margin: 0px 0px 10px 0px;
   line-height: 60px;
+}
+
+.i-text p:nth-child(1) {
+  text-decoration: underline;
+  font-size: 2.0rem;
+  color:#133b5a;
+  margin: 0px 0px 10px 0px;
+  line-height: 20px;
+}
+.i-text p:nth-child(2) {
+
+  border: 2px solid #133b5a;;
+  border-radius: 12px;
+  font-size: 1.5rem;
+  color:black;
+  margin: 0px 0px 10px 0px;
+  line-height: 40px;
 }
