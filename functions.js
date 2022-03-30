@@ -1,5 +1,7 @@
 function open(event) {
     id = event.target.id;
+    let eid = "e"+id;
+    document.getElementById("modal-e").innerText = document.getElementById(eid).value;
     console.log(id);
     document.getElementById('right').style.display = 'inline';
     document.getElementById('left').style.display = 'inline';
