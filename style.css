@@ -154,7 +154,7 @@ border-radius: 50%;
   }
 
 .p-text{
-    transform: translate(10%,10%);
+    transform: translate(10%,200%);
     width: 700px;
 }
 
@@ -255,20 +255,17 @@ padding-top: 40px;
 .img-container1{
   position: absolute;
   left: 1%;
-  top: 11%;
+  top: 200%;
 }
-
 
 .img-container2{
   position: absolute;
   left: 35%;
-  top: 11%;
+  top: 200%;
 }
-
-
 
 .img-container3{
   position: absolute;
   left: 70%;
-  top: 11%;
+  top: 200%;
 }
