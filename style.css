@@ -270,3 +270,19 @@ padding-top: 40px;
   left: 120%;
   top: 200%;
 }
+
+#md-img{
+  position: absolute; 
+  font-size: 100px;
+}
+
+#largeimg{
+  width: 500px;
+  height: 500px
+}
+
+#modal-container{
+  position: relative;
+  left: 30%;
+  transform: translateX(-30%);
+}
