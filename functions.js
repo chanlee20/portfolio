@@ -4,7 +4,7 @@ function open(event) {
     console.log(eid);
     console.log(document.getElementById(eid));
     console.log(document.getElementById(eid).value);
-    document.getElementById("modal-e").innerText = document.getElementById(eid);
+    document.getElementById("modal-p").innerText = document.getElementById(eid).textContent;
     console.log(id);
     document.getElementById('right').style.display = 'inline';
     document.getElementById('left').style.display = 'inline';
