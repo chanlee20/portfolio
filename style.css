@@ -247,3 +247,28 @@ padding-top: 40px;
   margin-top: 15px;
   
 }
+
+.img-section:hover .img{
+  transform: scale(0.7);
+}
+
+.img-container1{
+  position: absolute;
+  left: 1%;
+  top: 11%;
+}
+
+
+.img-container2{
+  position: absolute;
+  left: 35%;
+  top: 11%;
+}
+
+
+
+.img-container3{
+  position: absolute;
+  left: 70%;
+  top: 11%;
+}
