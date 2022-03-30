@@ -304,3 +304,8 @@ padding-top: 40px;
   left: 30%;
   transform: translateX(-30%);
 }
+
+.explanation{
+  width: 290px;
+  text-align: center;
+}
