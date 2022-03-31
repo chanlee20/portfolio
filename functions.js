@@ -4,7 +4,7 @@ function open(event) {
     console.log(eid);
     console.log(document.getElementById(eid));
     console.log(document.getElementById(eid).value);
-    document.getElementsByClassName("explanation").style.display = "inline";
+    // document.getElementsByClassName("explanation").style.display = "inline";
     document.getElementById("modal-p").innerHTML = "<p class = 'description'> " + document.getElementById(eid).textContent + " </p>";
     console.log(id);
     document.getElementById('right').style.display = 'inline';
