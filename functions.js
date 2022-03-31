@@ -4,7 +4,6 @@ function open(event) {
     console.log(eid);
     console.log(document.getElementById(eid));
     console.log(document.getElementById(eid).value);
-    // document.getElementsByClassName("explanation").style.display = "inline";
     document.getElementById("modal-p").innerHTML = "<p class = 'description'> " + document.getElementById(eid).textContent + " </p>";
     console.log(id);
     document.getElementById('right').style.display = 'inline';
@@ -23,9 +22,10 @@ function open(event) {
 }
 
 function nextImg() {
-        id++;
-        document.getElementById("modal-p").innerHTML = "<p class = 'description'> " + document.getElementById(eid).textContent + " </p>";
+        id++; 
         let eid = "e"+id;
+        document.getElementById("modal-p").innerHTML = "<p class = 'description'> " + document.getElementById(eid).textContent + " </p>";
+       
         console.log("next img: " + id);
         let img = document.getElementsByClassName("img");
         document.getElementById("largeimg").src = img[id-1].getAttribute("src");
