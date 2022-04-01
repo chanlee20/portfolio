@@ -320,3 +320,8 @@ padding-top: 40px;
   background-color: #e2e1e1;
   font-size: 20px;
 }
+
+#github {
+  border: none;
+  text-decoration: none;
+}
